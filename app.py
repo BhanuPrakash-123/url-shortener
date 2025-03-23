@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify, redirect, render_template
 from pymongo import MongoClient, ReturnDocument
 from pymongo.errors import DuplicateKeyError
