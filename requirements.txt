@@ -138,3 +138,5 @@ websocket-client==1.8.0
 Werkzeug==3.0.4
 wheel==0.44.0
 wrapt==1.16.0
+orjson==3.8.5 --prefer-binary
+cryptography==41.0.3 --prefer-binary
