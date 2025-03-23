@@ -9,7 +9,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # MongoDB configuration
-mongo_uri = 'mongodb://localhost:27017/'
+mongo_uri = 'mongodb+srv://user:user@cluster0.dtsnf.mongodb.net/'
 client = MongoClient(mongo_uri)
 db = client['url_shortener']
 urls_collection = db['urls']
